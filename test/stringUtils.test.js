@@ -11,3 +11,7 @@ test('isPalindrome', () => {
 test('truncateString', () => {
     expect(op.truncateString('ciao', 2)).toBe('ci...');
 });
+
+test('countCharacters', () => {
+    expect(op.countCharacters('ciao')).toEqual({ c: 1, i: 1, a: 1, o: 1 });
+});

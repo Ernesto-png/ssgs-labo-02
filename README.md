@@ -51,3 +51,26 @@ Per eseguire i test (Jest):
 Per generare il report di code coverage:
 1. npm run coverage
 
+### Scopo della CI
+
+Introdurre l’integrazione continua (CI) per eseguire automaticamente i test e generare il report di code coverage ad ogni modifica significativa, migliorando la qualità del codice e facilitando la revisione.
+
+---
+
+### Struttura del workflow
+
+- **Trigger**: Il workflow si attiva su push verso i branch `main` e `feature/**`, e su ogni apertura/aggiornamento di Pull Request verso `main`.
+- **Job**: Un singolo job sequenziale che:
+  1. Effettua il checkout del codice.
+  2. Prepara l’ambiente Node.js.
+  3. Installa le dipendenze.
+  4. Esegue i test con coverage.
+  5. Carica la cartella del report (`coverage/`) come artefatto scaricabile.
+
+---
+
+### Giustificazione dei trigger
+
+- **Push su branch principali e feature**: garantisce che ogni modifica significativa sia verificata.
+- **Pull Request verso main**: permette di verificare la qualità del codice prima del merge, favorendo code review e collaborazione.
+

@@ -46,6 +46,12 @@ Avvia il progetto
 Per eseguire i test (Jest):
 1. npm test
 
+Questo comando verifica le seguenti operazioni:
+- Parola palindroma
+- Parola troncata
+- parola troncata ma troppo corta
+- count lettere parola
+
 ## Coverage
 
 Per generare il report di code coverage:

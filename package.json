@@ -5,9 +5,18 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "coverage": "jest --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "String",
+    "palindrome",
+    "truncate",
+    "count"
+  ],
+  "author": "ERNESTO CAMPANTICO",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }

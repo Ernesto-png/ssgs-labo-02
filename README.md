@@ -37,6 +37,8 @@ Clona il repository e installa le dipendenze:
 
 Avvia il progetto
 1. npm start
+2. segui le istruzioni
+3. scegli l'operazione da eseguire con la stringa che desideri
 
 
 ## Esecuzione dei test

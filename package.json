@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "node bin/index.js"
   },
-  "keywords": [String, palindrome, truncate, count],
+  "keywords": ["String", "palindrome", "truncate", "count"],
   "author": "ERNESTO CAMPANTICO",
   "license": "ISC"
 }

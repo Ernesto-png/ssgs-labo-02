@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "test": "jest",
-    "start": "node bin/index.js"
+    "start": "node bin/index.js",
+    "coverage": "jest --coverage"
   },
   "keywords": ["String", "palindrome", "truncate", "count"],
   "author": "ERNESTO CAMPANTICO",

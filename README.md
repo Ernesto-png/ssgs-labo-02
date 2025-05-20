@@ -64,3 +64,6 @@ Introdotto l’integrazione continua (CI) per eseguire automaticamente i test e 
 - **Push su branch principali e feature**: garantisce che ogni modifica significativa sia verificata.
 - **Pull Request verso main**: permette di verificare la qualità del codice prima del merge, favorendo code review e collaborazione.
 
+## Avvertenze
+
+stavo provando a togliere e rimetere le cartelle coverage e node_modules poichè memorizzate in cache per poi re inserirle ma non sono riuscito a trovare il comando in tempo

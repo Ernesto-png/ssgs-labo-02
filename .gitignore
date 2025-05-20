@@ -17,3 +17,7 @@ dist/
 .coverage
 .pytest_cache/
 htmlcov/
+
+# Node.js
+node_modules/
+.vscode/

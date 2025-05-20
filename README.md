@@ -21,10 +21,33 @@ Buona analisi e buon lavoro!
 * Troncamento di una stringa a una lunghezza massima specificata.
 * Conteggio delle occorrenze di ciascun carattere in una stringa.
 
-## Installazione e Avvio
+## Requisiti
 
-*(Questa sezione dovrà essere completata dallo studente come parte dell'Esercizio 1, includendo i comandi per installare le dipendenze ed eseguire l'applicazione e i test).*
+- [Node.js] >= 18.x
+- [npm] >= 9.x
 
----
+## Installazione
 
-*Suggerimento: Presta particolare attenzione ai requisiti dell'Esercizio 1 del laboratorio per completare e correggere questo README e gli altri file di configurazione.*
+Clona il repository e installa le dipendenze:
+1. git clone https://github.com/Ernesto-png/ssgs-labo-02.git
+2. cd ssgs-labo-02
+3. npm
+
+# Avvio
+
+Avvia il progetto
+1. npm start
+2. segui le istruzioni
+3. scegli l'operazione da eseguire con la stringa che desideri
+
+
+## Esecuzione dei test
+
+Per eseguire i test (Jest):
+1. npm test
+
+## Coverage
+
+Per generare il report di code coverage:
+1. npm run coverage
+

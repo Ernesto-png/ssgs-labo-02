@@ -31,7 +31,7 @@ Buona analisi e buon lavoro!
 Clona il repository e installa le dipendenze:
 1. git clone https://github.com/Ernesto-png/ssgs-labo-02.git
 2. cd ssgs-labo-02
-3. npm
+3. npm ci
 
 # Avvio
 
@@ -53,9 +53,7 @@ Per generare il report di code coverage:
 
 ### Scopo della CI
 
-Introdurre l’integrazione continua (CI) per eseguire automaticamente i test e generare il report di code coverage ad ogni modifica significativa, migliorando la qualità del codice e facilitando la revisione.
-
----
+Introdotto l’integrazione continua (CI) per eseguire automaticamente i test e generare il report di code coverage ad ogni modifica significativa, migliorando la qualità del codice e facilitando la revisione.
 
 ### Struttura del workflow
 
@@ -66,8 +64,6 @@ Introdurre l’integrazione continua (CI) per eseguire automaticamente i test e 
   3. Installa le dipendenze.
   4. Esegue i test con coverage.
   5. Carica la cartella del report (`coverage/`) come artefatto scaricabile.
-
----
 
 ### Giustificazione dei trigger
 
